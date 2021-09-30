@@ -19,6 +19,64 @@
         .col-md-6 {
             padding-top: 10px;
         }
+
+        /* .cards {
+            position: relative;
+            margin-top: 50px;
+            margin-left: 50px;
+            width: 200px;
+            height: 300px;
+            background: rgb(23, 155, 207);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .triangle-card {
+            position: absolute;
+            top: -29px;
+            left: 84px;
+            width: 10px;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 30px solid rgb(23, 155, 207);
+        } */
+
+        .abn {
+            margin-top: 40px;
+            margin-left: 50px;
+            width: 20px;
+            height: 13px;
+            background: turquoise;
+        }
+
+        .abn::before {
+            content: "";
+            position: absolute;
+            top: 31px;
+            left: 62px;
+            width: 25px;
+            height: 22px;
+            background: #fff;
+            transform: rotate(45deg);
+        }
+
+        .abn::after {
+            content: "";
+            position: absolute;
+            top: 31px;
+            left: 35px;
+            width: 20px;
+            height: 25px;
+            background: #fff;
+            transform: rotate(45deg);
+        }
+
+        .abc {
+            width: 140px;
+            height: 300px;
+            background: turquoise;
+            overflow: hidden;
+            position: relative;
+        }
     </style>
 </head>
 
@@ -140,7 +198,7 @@
     </div>
  -->
 
-    <div class="container my-5">
+    <!-- <div class="container my-5">
         <table class="table table-responsive bg-secondary table-striped table-hover table-bordered text-white-50">
             <th>Name</th>
             <th>Title</th>
@@ -169,7 +227,17 @@
                 <td>Banaras</td>
             </tr>
         </table>
-    </div>
+    </div> -->
+
+
+    <!-- <div class="cards">
+        <div class="triangle-card">
+        </div>
+    </div> -->
+
+    <div class="abn"></div>
+    <div class="abc"></div>
+
 
     <script src="/js/bootstrap.bundle.js"></script>
 </body>
